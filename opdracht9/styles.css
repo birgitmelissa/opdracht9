@@ -1,0 +1,78 @@
+body {
+    color: red;
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    border: 2px solid darkcyan;
+    margin-bottom: 3px;
+    padding-left: 10px;
+}
+
+nav {
+    border: 2px solid darkcyan;
+    margin-bottom: 3px;
+    padding: 10px 15px 12px 0px; 
+}
+
+.nav-inline {
+    display: inline;
+    padding-right: 10px;;
+}
+
+main {
+    border: 2px solid darkcyan;
+    margin-bottom: 3px;
+    padding: 10px 10px 5px 10px;
+}
+
+aside {
+    border: 2px solid darkcyan;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    width: 50%;
+    padding: 5px 10px 5px 50px;
+}
+
+footer {
+    border: 2px solid darkcyan;
+    padding-left: 10px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 13px;
+}
+
+.welkom {
+    color:cornflowerblue;
+} 
+
+.blog {
+    display: flex;
+}
+
+.blogpost { 
+    width: 300px; 
+    border: 1px solid black; 
+    margin: 2px;
+}
+ 
+.blogpost h4 {
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    body {
+        color:darkred;
+        background-color:blanchedalmond;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 3px;
+    }
+
+}
+

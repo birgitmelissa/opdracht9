@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+
+<header>
+<h1>Contact</h1>
+</header>
+
+<nav>
+    <ul>
+        <li class="nav-inline"><a href="index.html">Home</a></li>
+        <li class="nav-inline"><a href="about.html">About</a></li>
+        <li class="nav-inline"><a href="contact.html">Contact</a></li>
+        <li class="nav-inline"><a href="blog.html">Blog</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<form name="contact" method="POST" data-netlify="true">
+    <p>
+        <label>Naam: <input type="text" name="name" /></label>   
+      </p>
+      <p>
+        <label>Email: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Telefoonnummer: <input type="tel" name="phonenumber" /></label>
+      </p>
+      <p>
+        <label>Leeftijd: <input type="text" name="age" /></label>
+      </p>
+      <p>
+        <label>Geboortedatum: <input type="date" name="date of birth" /></label>
+      </p>
+      <p>Geslacht:</p>
+       <input type="radio" name="geslacht" value="man"><label for man> Man</label>
+       <input type="radio" name="geslacht" value="vrouw"><label for man> Vrouw</label>
+      
+      <p>
+        Favoriete keuken:
+        </p>
+
+        <input type="checkbox" name="keuken" value="Frans"><label for frans> Frans</label>
+        <input type="checkbox" name="keuken" value="Italiaans"><label for italiaans> Italiaans</label>
+        <input type="checkbox" name="keuken" value="Spaans"><label for spaans> Spaans</label>
+        <input type="checkbox" name="keuken" value="Arabisch"><label for arabisch> Arabisch</label>
+
+        
+      <p>
+      <label> Favoriete Schortkleur: <input type="color" name="kleur"></label>
+      </p>
+      <p>
+        <label>Biografie: <textarea name="biografie"></textarea></label>
+      </p>
+      <p>
+      <label for="myfile">Upload je laatste recept:</label>
+      <input type="file" name="myfile">
+      </p>
+      <p>
+          <label for="homepage">Link naar je website:</label>
+      <input type="url" name="homepage">
+      </p>
+      <p>
+        <button type="reset">Reset</button>
+        <button type="submit">Verstuur</button>
+      </p>
+</form>
+
+</main>
+
+<footer>
+<p class="black-border">Copyright 2021</p>
+</footer>
+
+</body>
+</html>
